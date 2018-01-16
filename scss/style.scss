@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,350,400,700');
+
+
+.logo{
+	width: 160px;
+	margin-left: 130px;
+}
+
+.uk-navbar-container{
+	background-color:transparent !important;
+}
+
+.uk-navbar-right{
+		margin-right: 130px;
+		ul li{
+			margin-right: 10px;
+			a{
+				font-family: 'Roboto', sans-serif;
+				color: white;
+				font-weight: 400;
+				font-size: 14px;
+				letter-spacing: 2px;
+
+				button{
+					background: red;
+					font-weight: 500;
+					font-family: 'Roboto', sans-serif;
+					color: white;
+					font-weight: 400;
+					font-size: 14px;
+					letter-spacing: 2px;
+					background: linear-gradient(90deg,#ff2c40,#f15a3e);
+				}
+			}
+		}
+}
